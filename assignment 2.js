@@ -17,3 +17,10 @@ function myFunction(n)
   	return i++;
   } 
 }
+//task 3
+var arr = [9123,10000,100000,1234];
+var maximum = arr.reduce(function(a, b) {//reducing the array first into two arguements
+    return Math.max(a, b);//comapring those two variables
+});
+
+//task 4
